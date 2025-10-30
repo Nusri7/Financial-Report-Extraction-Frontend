@@ -1,0 +1,8 @@
+D:\Annual Report Extraction\Project-PDF Extraction - VSCode\client\src\App.jsx:19:  const [pdfZoom, setPdfZoom] = useState(1);
+D:\Annual Report Extraction\Project-PDF Extraction - VSCode\client\src\App.jsx:135:      setPdfZoom(1);
+D:\Annual Report Extraction\Project-PDF Extraction - VSCode\client\src\App.jsx:266:                onClick={() => setPdfZoom((value) => Math.max(0.5, Number((value - 0.1).toFixed(2))))}
+D:\Annual Report Extraction\Project-PDF Extraction - VSCode\client\src\App.jsx:271:              <span className="zoom-value">{Math.round(pdfZoom * 100)}%</span>
+D:\Annual Report Extraction\Project-PDF Extraction - VSCode\client\src\App.jsx:274:                onClick={() => setPdfZoom((value) => Math.min(3, Number((value + 0.1).toFixed(2))))}
+D:\Annual Report Extraction\Project-PDF Extraction - VSCode\client\src\App.jsx:281:                onClick={() => setPdfZoom(1)}
+D:\Annual Report Extraction\Project-PDF Extraction - VSCode\client\src\App.jsx:282:                disabled={!iframeSrc || pdfZoom === 1}
+D:\Annual Report Extraction\Project-PDF Extraction - VSCode\client\src\App.jsx:293:                  transform: `scale(${pdfZoom})`,
